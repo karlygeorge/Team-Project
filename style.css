@@ -1,0 +1,15 @@
+.navbar-brand {
+    color: black;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img-thumbnail {
+    width: 40%;
+    margin-top: 10px;
+}
