@@ -13,3 +13,11 @@
     width: 15%;
     margin-top: 10px;
 }
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px auto;
+    width: 70%;
+}
