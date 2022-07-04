@@ -10,7 +10,7 @@
 }
 
 .img-thumbnail {
-    width: 15%;
+    width: 25%;
     margin-top: 10px;
 }
 
@@ -20,6 +20,12 @@
     align-content: center;
     margin: 0px auto;
     width: 70%;
+
+}
+
+.container-fluid :hover{
+    background-color: #7BDCB5;
+    color: white;
 }
 
 /* Footer */
@@ -75,4 +81,9 @@ border: 1px solid #7BDCB5;
     align-self: flex-end;
     cursor: pointer;
     height: auto;
+}
+
+button:hover {
+    background-color: #ABB8C3;
+    color: white;
 }
