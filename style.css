@@ -57,6 +57,7 @@ p.hashtag {
 border-radius: 12px;
 padding: 0px 0px 0px 16px;
 height: 57px;
+width: 65%;
 text-align: left;
 color:black;
 font-size: 20px;
@@ -87,3 +88,4 @@ button:hover {
     background-color: #ABB8C3;
     color: white;
 }
+
