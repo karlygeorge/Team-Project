@@ -116,6 +116,16 @@ align-items: center;
 justify-items: center;
 font-size: 25px;
   }
+
+/* Map */
+.map {
+  display: grid;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  width: 75%;
+ }
+
 /* Footer */
 footer {
   background-color: #7BDCB5;
@@ -176,6 +186,7 @@ p.hashtag {
 .newsletter {
   text-align: center;
 }
+
 .newsletterbox {
 border-radius: 12px;
 padding: 0px 0px 0px 16px;
@@ -189,6 +200,7 @@ letter-spacing: 0px;
 background-color: rgb(255, 255, 255);
 border: 1px solid #7BDCB5;
 }
+
 .subscribebutton {
   background-color: #7BDCB5;
   border-radius: 6px;
