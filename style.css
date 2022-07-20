@@ -122,15 +122,18 @@ font-size: 25px;
   width: 100%;
   display: block;
   margin: 0px auto;
+  margin-bottom: 20px;
 }
 
 .staffpics {
   float: right;
-  width: 200px;
-  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 25%;
   padding: 10px;
   margin: 0px auto;
-  
+  margin-right: 150px;
 }
 
 .staff {
@@ -143,8 +146,9 @@ font-size: 25px;
 .findus {
   width: 100%;
   display:inline-table;
-  padding: 120px;
+  
 }
+
 .map {
   float: left;
   width: 50%;
@@ -159,7 +163,6 @@ font-size: 25px;
   align-items: center;
   text-align: center;
   width: 50%;
-  padding: 5%;
  }
 
 /* Footer */
