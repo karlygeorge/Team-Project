@@ -1,3 +1,4 @@
+/*Nav Bar and Logo */
 .navbar-brand {
     color: black;
 }
@@ -28,6 +29,87 @@
     color: white;
 }
 
+/* Main Event Carousel*/
+.carousel .carousel-indicators li {
+  background-color: #7BDCB5;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+  /* Position the "next button" to the right */
+.carousel .carousel-control-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* Position the "next button" to the right */
+.carousel .carousel-control-prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a green background color with a little bit see-through */
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: #7BDCB5;
+  height: 100%;
+}
+.carousel {
+  min-width: 10%;
+  max-height: 100%;
+  max-height: 400px;
+  margin-bottom: 60px;
+  height:auto;
+}
+.mycarousel {
+height: 100%;
+border: 5px solid #7BDCB5;
+}
+#body{
+height: 100%;
+}
+.Wrapper {
+background-color: black;
+top: 0;
+left: 0;
+min-width: 10%;
+max-width: 50%;
+max-height: 100%;
+width: auto;
+margin-right:auto;
+margin-left:auto;
+height:auto;
+}
+.Image1 {
+top: 0;
+left: 0;
+min-width: 10%;
+max-width: 40%;
+max-height: 100%;
+width: auto;
+margin-right:auto;
+margin-left:auto;
+height:auto;
+}
+.Image2 {
+  top: 0;
+  left: 0;
+  min-width: 10%;
+  max-width: 40%;
+  max-height: 100%;
+  width: auto;
+  margin-right:auto;
+  margin-left:auto;
+  height:auto;
+}
+.Image3 {
+  top: 0;
+  left: 0;
+  min-width: 10%;
+  max-width: 40%;
+  max-height: 100%;
+  width: auto;
+  margin-right:auto;
+  margin-left:auto;
+  height:auto;
+}
 /* Coffee Pics */
 .coffee-images {
     display:flex;
