@@ -499,7 +499,7 @@ form {
 		transition: all .2s ease;
   }
 
-		&::placeholder{
+  input[type="email"]:placeholder{
 			color: white;
 			display: block!important;
 			font-family: 'Lato', 'Helvetica' ,sans-serif;
@@ -513,11 +513,11 @@ form {
 			visibility: visible!important;
     }
 
-		&.hasValue, &:focus {
+		input[type="email"].hasValue, input[type="email"]:focus {
 			background-size: 100% 100%;
     }
 
-			&::placeholder {
+		input[type="email"]:placeholder {
 				color: #7BDCB5;
 				display: block!important;
 				transform: translate3d(0%, -135%, 0);
@@ -545,15 +545,3 @@ form {
   input[type="submit"]:hover{
     background-color: #abb8c3;
   }
-
-		&:hover {
-			background: #34495E;
-			color: white;
-    }
-@keyframes scaleanimation 0%;
-		opacity: 0;
-		transform: translate(-50%,-50%) scale(1.5,1.5);
-
-@keyframes scaleanimation 100%;
-		opacity: 1;
-		transform: translate(-50%,-50%) scale(1,1);
