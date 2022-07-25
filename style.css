@@ -29,6 +29,20 @@
     color: white;
 }
 
+/*Tag Line*/
+.Tagline-box {
+  background-color: #7BDCB5;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  font-size: small;
+  border: 5px solid white;
+  text-align: center;
+  margin: 10px 0px 0px;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  }
+
 /* Main Event Carousel*/
 .carousel .carousel-indicators li {
   background-color: #7BDCB5;
@@ -60,13 +74,15 @@
 }
 .mycarousel {
 height: 100%;
-border: 5px solid #7BDCB5;
+border: 5px solid white;
+border-radius: 10px;
 }
 #body{
 height: 100%;
 }
 .Wrapper {
 background-color: black;
+border-radius: 10px;
 top: 0;
 left: 0;
 min-width: 10%;
@@ -130,10 +146,8 @@ height:auto;
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 10px;
-    border: solid;
-    border-width: 0.01x;
-    border-color:black;
     width: 30%;
+    border: 5px solid white;
   }
   .image2
   {
@@ -144,25 +158,84 @@ height:auto;
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 10px;
-    border: solid;
-    border-width: 0.01x;
-    border-color:black;
     width: 30%;
+    border: 5px solid white;
   }
   .image3
   {
     display:flex;
     border-radius: 20px;
-    margin-right: 2;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 30%;
+    border: 5px solid white;
+  }
+
+  /*Wine Pics*/
+  .wine-images
+ {
+display:flex;
+justify-content: center;
+align-items: center
+ }
+ .wine1
+ {
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 20px;
+    margin-right: 20px;
     margin-bottom: 50px;
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 10px;
     border: solid;
-    border-width: 0.01x;
+    border-width: 5px;
     border-color:black;
-    width: 30%;
-  }
+ }
+ .wine2
+ {
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 5px;
+    border-color:black;
+ }
+ .wine3
+ {
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 5px;
+    border-color:black;
+ }
+
+.heading1
+{
+ font-family: bebas neue, roboto;
+margin-left: auto;
+width: 55%;
+align-items: center;
+justify-items: center;
+font-size: 25px;
+}
 
 .events
   {
@@ -176,9 +249,7 @@ height:auto;
 .event1
   {
     border-radius: 10px;
-    border: solid;
-    border-width: 0.01x;
-    border-color:black;
+    border: 5px solid white;
   }
 .heading1
   {
@@ -197,6 +268,23 @@ width: 55%;
 align-items: center;
 justify-items: center;
 font-size: 25px;
+  }
+
+  /*About Us*/
+  .about-us
+  {
+  float: left;
+  margin-left: 150px;
+  margin-top: 30px;
+  font-family: bebas neue, roboto;
+  width: 50%;
+  align-content: center;
+  text-align: center;
+  justify-items: center;
+  font-size: 30px;
+  border-style:double;
+  border-color: white;
+  border-width: 10px;
   }
 
 /* Staff Pics */
@@ -218,7 +306,9 @@ font-size: 25px;
   margin-right: 150px;
 }
 
-.staff {
+.staff1, .staff2, .staff3 {
+  border: 5px solid white;
+  border-radius: 10px;
   max-width: 100%;
   max-height: 100%;
   margin: 10px;
@@ -243,7 +333,7 @@ font-size: 25px;
   float: right;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   width: 50%;
  }
 
@@ -253,6 +343,8 @@ footer {
   color: white;
   padding: 10px;
   margin: 20px;
+  border: 5px solid white;
+  border-radius: 10px;
 }
 
 p.hashtag {
@@ -322,7 +414,7 @@ background-color: rgb(255, 255, 255);
 border: 1px solid #7BDCB5;
 }
 
-.subscribebutton {
+/* .subscribebutton { 
   background-color: #7BDCB5;
   border-radius: 6px;
   border: 6px solid #7BDCB5;
@@ -338,8 +430,100 @@ border: 1px solid #7BDCB5;
   align-self: flex-end;
   cursor: pointer;
   height: auto;
-}
+}*/
 
 .subscribebutton:hover {
   background-color: #abb8c3;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  background: #21CDB2;
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  text-align: center;
+  word-break: break-word;
+  align-self: flex-end;
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin: 8px;
+  }
+}
+.parent {
+  position: flex;
+  .sub {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .thanks {
+    font-size: 13px;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    opacity: 0;
+  }
+}
+.text {
+  font-size: 17px;
+  color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+#toggle {
+  display: none;
+}
+.button {
+  position: flex;
+  z-index: 999;
+  width: 28px;
+  height: 28px;
+  background: #F9F9F9;
+  border-radius: 10%;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+  &:before {
+    position: flex;
+    top: 13px;
+    left: 6px;
+    content: '';
+    width: 16px;
+    height: 2px;
+    background: #21CDB2;
+    transform: rotate(90deg);
+  }
+
+  &:after {
+    position: flex;
+    top: 13px;
+    left: 6px;
+    content: '';
+    width: 16px;
+    height: 2px;
+    background: #21CDB2;
+  }
+
+#toggle:checked ~ .nav {
+  opacity: 1;
+  transform: translateY(10%);
+}
+
+#toggle:checked ~ .button {
+  transform: rotate(135deg);
+  box-shadow: 0 0 0 0 transparent;
+  border-radius: 100%;
+}
+
+#toggle:checked ~ .subbed {
+  opacity: 1;
 }
